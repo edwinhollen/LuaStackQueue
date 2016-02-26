@@ -13,8 +13,9 @@ Lua stack and queue implementations
     -- 'a', 'b', 'c', 'd'
     abc.pop() -- 'a'
     -- 'b', 'c', 'd'
+    abc.peek() -- 'b'
 
-    
+
 
     -- Stack example
 
@@ -25,3 +26,4 @@ Lua stack and queue implementations
     -- 'a', 'x', 'y', 'z'
     xyz.pop() -- 'a'
     -- 'x', 'y', 'z'
+    xyz.peek() -- 'x'
